@@ -1,0 +1,129 @@
+ul {
+    list-style-type: none;
+  }
+  
+  .ul-navbar {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .anchors-navbar, .btn-anchors-navbar {
+    color: rgba(0,0,0,0.87);
+    font-family: "Arial", "sans-Serif";
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-sign-up {
+    margin-right: 30px;
+    margin-left: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background-color: #1a73e8;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .btn-sign-up:hover {
+    background-color: #4285f4;
+    box-shadow: 1px 1px 1px 1px #9abdf5;
+  }
+  
+  .anchors-navbar:hover {
+    text-decoration: underline;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .search-bar-img {
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  
+  .search-bar {
+    cursor: text;
+    width: 437px;
+    height: 34px;
+    border-style: groove;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #c3c5c7;
+  }
+  
+  .search-bar:hover {
+    box-shadow: 2px 2px 5px 5px #dcdee0;
+  }
+  
+  .search-buttons-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  input[type=submit] {
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Arial", "sans-Serif";
+    background-color: rgb(248, 249, 250);
+    border-style: none;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+  }
+  
+  input[type=submit]:hover {
+    box-shadow: 0.5px 0.5px 1.5px 1.5px #a7a9ab;
+  }
+  
+  .text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .text-estilo {
+    font-family: "Arial", "sansSerif";
+    font-size: 13px;
+    padding-left: 10px;
+    font-weight: lighter;
+  }
+  
+  .text-estilo-link {
+    font-family: "Arial", "sansSerif";
+    font-size: 13px;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+  
+  .text-estilo-link:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(248, 249, 250);
+  }
+  
+  .container-footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
